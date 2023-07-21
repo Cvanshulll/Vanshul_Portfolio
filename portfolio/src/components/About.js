@@ -3,8 +3,9 @@ const About = () => {
     <>
       {/* <!-- Experience --> */}
       <section id="about">
-        <div id="aboutus" className="container">
+        <div id="aboutus" className="container-fluid">
           <div className="row gx-5">
+    
             <div className="col-lg-5 col-md-12">
               {/* <h4>About Me.</h4> */}
               <img
