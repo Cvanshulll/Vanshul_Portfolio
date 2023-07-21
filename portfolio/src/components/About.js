@@ -53,24 +53,28 @@ const About = () => {
           </div>
         </div>
 
-        {/* <!-- Work --> */}
-        <div className="about-skill container pt-4 pb-5">
-          <div className=" row border  text-center">
-            <div className=" col-4 bg-light p-4">
-              <h2>2+</h2>
-              <p>Year of Experience</p>
-            </div>
-            <div className="col-4 p-4 bg-dark text-white">
-              <h2>700+</h2>
-              <p>Coding Questions Solved</p>
-            </div>
-            <div className="col-4 bg-light p-4">
-              <h2>14+</h2>
-              <p>Projects</p>
-            </div>
-          </div>
-        </div>
-        {/* <section>
+        {/* <!-- Work --> 
+        // <div className="about-skill container pt-4 pb-5">
+        //   <div className=" row border  text-center">
+        //     <div className=" col-4 bg-light p-4">
+        //       <h2>2+</h2>
+        //       <p>Year of Experience</p>
+        //     </div>
+        //     <div className="col-4 p-4 bg-dark text-white">
+        //       <h2>700+</h2>
+        //       <p>Coding Questions Solved</p>
+        //     </div>
+        //     <div className="col-4 bg-light p-4">
+        //       <h2>14+</h2>
+        //       <p>Projects</p>
+        //     </div>
+        //   </div>
+        // </div>
+        */}
+        {
+          
+          
+          /* <section>
         <div className="card ">
           <div className="card-header about">
             <h1>About Me</h1>
