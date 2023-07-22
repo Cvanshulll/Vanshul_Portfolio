@@ -23,7 +23,8 @@ const Award = () => {
               to list all the clubs & societies of our college.{" "}
               <b>
                 <a
-                  href="https://adarsh-sgh.github.io/socialise/"
+                  href="https://cvanshulll.github.io/socialise/
+                    "
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#e94d35" }}
