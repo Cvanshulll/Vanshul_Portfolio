@@ -137,7 +137,6 @@ h1 {
 
 .main-section {
   padding-top: 0.2rem;
-  height: 70vh;
 }
 .main {
   margin-top: 6.4rem;
@@ -183,7 +182,7 @@ a:hover {
   padding: 0px 10px;
   padding-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 0px 30px;
+  margin: 40px 30px 0px 30px;
 }
 #aboutus {
   /* border: 2px solid red; */
@@ -240,12 +239,9 @@ span {
   /* border: 1px solid red; */
 }
 .certi {
-  margin: 60px 80px;
+  margin: 40px 60px;
 }
-.certi img {
-  width: 10rem;
-  height: 14rem;
-}
+
 .award-section {
   margin: 0px 40px;
   padding: 30px;
@@ -329,6 +325,9 @@ a:focus {
   .main-section {
     padding-top: 0.2rem;
   }
+  .main-section {
+    padding-top: 0.2rem;
+  }
   .main h1 {
     /* border: 2px solid purple; */
     font-size: 2.7rem;
@@ -353,7 +352,7 @@ a:focus {
     padding: 0px 30px;
     padding-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 10px 30px 80px 30px;
+    margin: 66px 30px 80px 30px;
   }
   #aboutus {
     padding: 40px 24px;
@@ -428,21 +427,19 @@ a:focus {
   }
   .main div {
     font-size: 2rem;
-    margin-top: 6.4rem;
+    margin-top: 3.4rem;
   }
   #about {
     padding: 0px 30px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 10px 0px 80px 0px;
+    margin: 60px 0px 80px 0px;
   }
   .resume {
     margin-left: 10px;
     margin-top: 0px;
     padding-left: 0px;
     width: 100%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
   .certi {
     margin: 40px 100px;
@@ -480,7 +477,6 @@ a:focus {
 
   .main-section {
     padding-top: 5rem;
-    height: 95vh;
   }
   .main {
     margin-top: 5.8rem;
@@ -522,9 +518,9 @@ a:focus {
   /* aboutus */
   #about {
     padding: 0px 30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 10px 40px 50px 40px;
+    margin: 80px 40px 50px 40px;
   }
   #aboutus {
     padding: 50px 30px;
