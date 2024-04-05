@@ -1,5 +1,45 @@
 const ExpData = [
   {
+    title: "Frontend Developer",
+    company: "Pentadots (Freelancing)",
+    detail: [
+      {
+        info:
+          "Led the development of a real estate website with a team of 8-9 developers, and implemented user authentication for a 30% improvement in website security."
+      },
+      { info: "Boosted user engagement by 15% through crafting 22+ responsive pages, from Figma designs." },
+
+      {
+        info:
+          "Significantly optimized development efficiency by 20%, leveraging advanced technologies such as Next.js, Tailwind CSS, and Docker, facilitating smooth collaboration with the backend team."
+      }
+    ],
+    timeline: "Nov. 2023 – Present (Remote)",
+    // codeLink: "https://talentboltz.netlify.app/home/",
+    // demoLink: "https://",
+    // certificateLink: "https://drive.google.com/file/d/1z7A_uXVvHmkPGhnLE_lrNmjzOLSDGkB-/view"
+  },
+  {
+    title: "Web Development Intern",
+    company: "Nodebrew (Internship)",
+    detail: [
+      {
+        info:
+          "Engineered a first-fold UI using React.js & Material UI for a hackathon website; employed ES6 JavaScript features."
+      },
+      { info: "Integrated with an API, enabling real-time data retrieval & display, Achieved a 25% improvement in user experience." },
+
+      {
+        info:
+          "Incorporated animations per the web flow design & seamlessly integrated the code into the repository via Git/GitHub."
+      }
+    ],
+    timeline: "July 2023 – Sept 2023 (Remote)",
+    // codeLink: "https://talentboltz.netlify.app/home/",
+    // demoLink: "https://",
+    certificateLink: "https://drive.google.com/file/d/1z7A_uXVvHmkPGhnLE_lrNmjzOLSDGkB-/view"
+  },
+  {
     title: "Backend Developer Intern",
     company: "Training and Placement Cell, NIT Hamirpur",
     detail: [
@@ -14,9 +54,9 @@ const ExpData = [
           "Collaborated with team members to ensure the success of the APIs with the front-end components of the project."
       }
     ],
-    timeline: "Feb 2023 – May 2023 (Hybrid)",
+    timeline: "Feb. 2023 – May 2023 (Hybrid)",
     codeLink: "https://talentboltz.netlify.app/home/",
-    demoLink: "https://"
+    // demoLink: "https://"
   },
   {
     title: "UAceIt (Mentee)",
@@ -36,7 +76,7 @@ const ExpData = [
     timeline: "December 2021 - Jan 2022 ",
     codeLink:
       "https://github.com/UAceIt-Winter-of-Mentorship/Handwritten-Digit-Classification/tree/main/Vanshul_Handwritten_Digit_Classification",
-    demoLink: "not found"
+    // demoLink: "not found"
   }
 ];
 
