@@ -22,13 +22,24 @@ const Experience = () => {
                   <div className="row">
                     <div className="col">
                       <h3>{item.title}</h3>
-                      <p
+                      <div className="row justify-between">
+                        <div className="col"><p
                         style={{
                           fontWeight: "450"
                         }}
                       >
                         {item.company}
-                      </p>
+                      </p></div>
+                      <div className="col">
+                        <p
+                          style={{
+                            fontWeight: "450"
+                          }}
+                        >
+                          {item.timeline}
+                        </p>
+                      </div>
+                      </div>
                       <ul>
                         {item.detail.map((e) => (
                           <li> {e.info} </li>
@@ -40,14 +51,26 @@ const Experience = () => {
                             fontWeight: "450"
                           }}
                         >
-                          <a
-                            href={item.codeLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {" "}
-                            &lt; Code /&gt;
-                          </a>
+                          {item.codeLink ? (
+                            <a
+                              href={item.codeLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {" "}
+                              &lt; Code /&gt;
+                            </a>
+                          ) : null}
+                          {item.certificateLink ? (
+                            <a
+                              href={item.certificateLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {" "}
+                              &lt; Certificate /&gt;
+                            </a>
+                          ) : null}
                         </div>
                         <div
                           style={{
