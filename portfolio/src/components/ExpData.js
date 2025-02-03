@@ -1,5 +1,24 @@
 const ExpData = [
   {
+    title: "Software Development Engineer",
+    company: "Onextel Media",
+    detail: [
+      {
+        info:
+          "Developed scalable UI functionalities using the Nitrogen framework and implemented data validation in Erlang."
+      },
+      { info: "Optimized API performance by reducing redundant requests with caching, integrating APIs with the frontend, and ensuring seamless functionality through rigorous testing with Postman." },
+      {
+        info:
+          "Collaborated with cross-functional teams to streamline development processes and ensure seamless integration."
+      }
+    ],
+    timeline: "July 2024 – Present (Remote)",
+    // codeLink: "https://talentboltz.netlify.app/home/",
+    // demoLink: "https://",
+    // certificateLink: "https://drive.google.com/file/d/1z7A_uXVvHmkPGhnLE_lrNmjzOLSDGkB-/view"
+  },
+  {
     title: "Frontend Developer",
     company: "Pentadots (Freelancing)",
     detail: [
@@ -14,7 +33,7 @@ const ExpData = [
           "Significantly optimized development efficiency by 20%, leveraging advanced technologies such as Next.js, Tailwind CSS, and Docker, facilitating smooth collaboration with the backend team."
       }
     ],
-    timeline: "Nov. 2023 – Present (Remote)",
+    timeline: "Nov. 2023 – March 2024 (Remote)",
     // codeLink: "https://talentboltz.netlify.app/home/",
     // demoLink: "https://",
     // certificateLink: "https://drive.google.com/file/d/1z7A_uXVvHmkPGhnLE_lrNmjzOLSDGkB-/view"
