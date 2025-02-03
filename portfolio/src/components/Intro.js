@@ -37,7 +37,7 @@ const Intro = () => {
               <i className="fa-brands fa-github fa-beat"></i> GitHub
             </a>
             <a
-              href="https://twitter.com/cvanshul"
+              href="https://twitter.com/vanshulll"
               target="_blank"
               rel="noopener noreferrer"
               className="btn contact-details"
