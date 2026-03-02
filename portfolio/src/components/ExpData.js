@@ -3,17 +3,17 @@ const ExpData = [
     title: "Software Development Engineer",
     company: "Onextel Media",
     detail: [
+      { info: "Optimized API performance by reducing redundant requests with caching, integrating APIs with the frontend, and ensuring seamless functionality through rigorous testing with Postman." },
       {
         info:
           "Developed scalable UI functionalities using the Nitrogen framework and implemented data validation in Erlang."
       },
-      { info: "Optimized API performance by reducing redundant requests with caching, integrating APIs with the frontend, and ensuring seamless functionality through rigorous testing with Postman." },
       {
         info:
           "Collaborated with cross-functional teams to streamline development processes and ensure seamless integration."
       }
     ],
-    timeline: "July 2024 – Present (Remote)",
+    timeline: "July 2024 – Feb. 2025",
     // codeLink: "https://talentboltz.netlify.app/home/",
     // demoLink: "https://",
     // certificateLink: "https://drive.google.com/file/d/1z7A_uXVvHmkPGhnLE_lrNmjzOLSDGkB-/view"
@@ -100,3 +100,4 @@ const ExpData = [
 ];
 
 export default ExpData;
+
